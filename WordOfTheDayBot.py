@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import praw
 import config
 import urllib.request as urllib2
@@ -82,4 +81,3 @@ subreddit = reddit.subreddit("pythonforengineers")
 
 subreddit.submit(title="Word of the Day", selftext=post_text, send_replies=False)
 print("Post Submitted")
->>>>>>> 281f2a69850ef0cf0febd30f559322b5db10b16e
